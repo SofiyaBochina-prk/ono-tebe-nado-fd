@@ -1,5 +1,10 @@
 .header {
-
+    display: flex;
+    height: 293px;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+    background-color: cadetblue;
 }
 
 .nav {
@@ -7,14 +12,37 @@
 }
 
 .logo {
+}
 
+.logo-image {
+    height: 105px;
 }
 
 .contacts {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover {
+    height: 757px;
+    padding: 50px;
+    background-color: aquamarine;
+}
+
+.cover__title {
 
 }
 
-.content {
+.cover__description {
+    display: flex;
+}
+
+.cover__description_subline {
+
+}
+
+.cover__description_make-lot {
 
 }
 
@@ -22,10 +50,70 @@
 
 }
 
+.lots__title {
+
+}
+
+.lots__cards {
+
+}
+
+.lots__more {
+
+}
+
+.card {
+
+}
+
+.card__link {
+
+}
+
+.card__text {
+
+}
+
+.card__text_title {
+
+}
+
+.card__text_description {
+
+}
+
 .about {
+
+}
+
+.logo-column {
+
+}
+
+.about-column {
+
+}
+
+.about__title {
+
+}
+
+.about__description {
+
+}
+
+.about__description_paragraph {
 
 }
 
 .footer {
 
+}
+
+.socials {
+
+}
+
+.link {
+    text-decoration: underline;
 }
