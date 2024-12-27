@@ -10,42 +10,57 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+<!--  <img class="preview" src="images/preview.png">-->
     <header class="header">
       <nav class="nav">
         <span>главная</span>
-        <a class="link">посмотреть лоты</a>
-        <a class="link">об аукционе</a>
+        <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="3" cy="3" r="2.75" stroke="black" stroke-width="0.5"/>
+        </svg>
+        <a class="underline">посмотреть лоты</a>
+        <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="3" cy="3" r="2.75" stroke="black" stroke-width="0.5"/>
+        </svg>
+        <a class="underline">об аукционе</a>
       </nav>
       <a class="logo">
         <img class="logo-image" src="images/logo-black.svg" alt="Black logo">
       </a>
       <address class="contacts">
-        <a class="link">+9 999 555 5555</a>
-        <a class="link">info@sobaka.ge</a>
+        <a class="underline" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <span>наб. Принсенграхт 263- 265, Амстердам</span>
       </address>
     </header>
-    <main>
+    <main class="main">
       <section class="cover">
-        <h1 class="cover__title">
-          <span>ОНО</span>
-          <span>ТЕБЕ</span>
-          <span>НАДО</span>
-        </h1>
-        <div class="cover__description">
-          <p class="cover__description_subline">
-            Аукцион вещей, вкоторые никто не верил
-          </p>
-          <button class="cover__description_make-lot">Сделать ставку</button>
+        <div class="overlay"></div>
+        <img class="background-image" src="images/cover.jpg" alt="Фото обложки">
+        <div class="cover__content">
+          <h1 class="cover__title">
+            <span class="cover__title_start">оно</span>
+            <span class="cover__title_middle">теб<span class="no-letter-spacing">е</span></span>
+            <span class="cover__title_end">над<span class="no-letter-spacing">о</span></span>
+          </h1>
+          <div class="cover__description">
+            <p class="cover__description_subline">
+              <span class="subline-first">Аукцион вещей,</span>
+              <span class="subline-between"></span>
+              <span class="subline-second">в которые никто не верил</span>
+            </p>
+            <span class="cover__description_make-lot">Сделать ставку</span>
+          </div>
         </div>
       </section>
       <section class="lots">
         <h1 class="lots__title">ЛОТЫ</h1>
         <ul class="lots__cards">
           <li class="card">
+            <div class="overlay"></div>
+            <img class="background-image not-stretch" src="images/card-lot-01.jpg" alt="Фото карточки 1">
             <a class="card__link">
               <article class="card__text">
-                <h3 class="card__text_title">
+                <h3 class="card__text_title underline">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
                 <p class="card__text_description">
@@ -56,9 +71,11 @@
             </a>
           </li>
           <li class="card">
+            <div class="overlay"></div>
+            <img class="background-image not-stretch" src="images/card-lot-02.jpg" alt="Фото карточки 1">
             <a class="card__link">
               <article class="card__text">
-                <h3 class="card__text_title">
+                <h3 class="card__text_title underline">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
                 <p class="card__text_description">
@@ -71,9 +88,11 @@
             </a>
           </li>
           <li class="card">
+            <div class="overlay"></div>
+            <img class="background-image not-stretch" src="images/card-lot-03.jpg" alt="Фото карточки 1">
             <a class="card__link">
               <article class="card__text">
-                <h3 class="card__text_title">
+                <h3 class="card__text_title underline">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
                 <p class="card__text_description">
@@ -85,7 +104,7 @@
             </a>
           </li>
         </ul>
-        <a class="link lots__more">посмотреть больше</a>
+        <a class="underline lots__more">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="logo-column">
@@ -112,14 +131,14 @@
     </main>
     <footer class="footer">
       <address class="contacts">
-        <a class="link">+9 999 555 5555</a>
-        <a class="link">info@sobaka.ge</a>
+        <a class="underline">+9 999 555 5555</a>
+        <a class="underline">info@sobaka.ge</a>
         <span>наб. Принсенграхт 263- 265, Амстердам</span>
       </address>
       <nav class="nav">
         <span>главная</span>
-        <a class="link">посмотреть лоты</a>
-        <a class="link">об аукционе</a>
+        <a class="underline">посмотреть лоты</a>
+        <a class="underline">об аукционе</a>
       </nav>
       <div class="socials">
       </div>
