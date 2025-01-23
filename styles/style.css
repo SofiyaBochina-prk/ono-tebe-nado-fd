@@ -255,17 +255,6 @@
     gap: 1px
 }
 
-.preview {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0.5;
-    filter: sepia(0.6);
-    width: 1100px;
-    z-index: 5
-}
-
 .not-stretch {
     object-fit: cover;
     object-position: center;
