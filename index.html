@@ -12,15 +12,17 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <span>главная</span>
-        <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="3" cy="3" r="2.75" stroke="black" stroke-width="0.5"/>
-        </svg>
-        <a class="underline">посмотреть лоты</a>
-        <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="3" cy="3" r="2.75" stroke="black" stroke-width="0.5"/>
-        </svg>
-        <a class="underline">об аукционе</a>
+        <ul class="nav__links">
+          <li class="nav__link">
+            <a class="link link-active" href="#">главная</a>
+          </li>
+          <li class="nav__link">
+            <a class="link" href="#">посмотреть лоты</a>
+          </li>
+          <li class="nav__link">
+            <a class="link" href="#">об аукционе</a>
+          </li>
+        </ul>
       </nav>
       <a class="logo">
         <img class="logo-image" src="images/logo-black.svg" alt="Black logo">
@@ -32,9 +34,8 @@
       </address>
     </header>
     <main class="main">
-      <section class="cover">
+      <section class="cover background-cover">
         <div class="overlay"></div>
-        <img class="background-image" src="images/cover.jpg" alt="Фото обложки">
         <div class="cover__content">
           <h1 class="cover__title">
             <span class="cover__title_start">оно</span>
@@ -54,9 +55,8 @@
       <section class="lots">
         <h1 class="lots__title">ЛОТЫ</h1>
         <ul class="lots__cards">
-          <li class="card">
+          <li class="card card-first background-cover">
             <div class="overlay"></div>
-            <img class="background-image not-stretch" src="images/card-lot-01.jpg" alt="Фото карточки 1">
             <a class="card__link">
               <article class="card__text">
                 <h3 class="card__text_title underline">
@@ -69,9 +69,8 @@
               </article>
             </a>
           </li>
-          <li class="card">
+          <li class="card card-second background-cover">
             <div class="overlay"></div>
-            <img class="background-image not-stretch" src="images/card-lot-02.jpg" alt="Фото карточки 1">
             <a class="card__link">
               <article class="card__text">
                 <h3 class="card__text_title underline">
@@ -86,9 +85,8 @@
               </article>
             </a>
           </li>
-          <li class="card">
+          <li class="card card-third background-cover">
             <div class="overlay"></div>
-            <img class="background-image not-stretch" src="images/card-lot-03.jpg" alt="Фото карточки 1">
             <a class="card__link">
               <article class="card__text">
                 <h3 class="card__text_title underline">
