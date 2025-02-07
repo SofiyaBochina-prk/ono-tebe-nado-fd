@@ -18,7 +18,7 @@
     list-style-type: circle;
 }
 
-.nav__link:first-child  {
+.nav__link:first-child {
     list-style: none;
 }
 
@@ -32,15 +32,11 @@
 
 .logo {
     display: flex;
-    background-size: auto;
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 
 .logo-black {
     width: 148px;
     height: 105px;
-    background-image: url("../images/logo-black.svg");
 }
 
 .contacts {
@@ -261,7 +257,6 @@
 .logo-white {
     width: 148px;
     height: 114px;
-    background-image: url("../images/logo-white.svg");
 }
 
 .about__part-title {
