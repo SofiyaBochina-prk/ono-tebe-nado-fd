@@ -24,9 +24,7 @@
           </li>
         </ul>
       </nav>
-      <a class="logo">
-        <img class="logo-image" src="images/logo-black.svg" alt="Black logo">
-      </a>
+      <a class="logo logo-black"></a>
       <address class="contacts">
         <a class="underline" href="tel:+99995555555">+9 999 555 5555</a>
         <a class="underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -48,16 +46,16 @@
               <span class="subline-between"></span>
               <span class="subline-second">в которые никто не верил</span>
             </p>
-            <span class="cover__description_make-lot">Сделать ставку</span>
+            <button class="cover__description_make-lot">Сделать ставку</button>
           </div>
         </div>
       </section>
       <section class="lots">
-        <h1 class="lots__title">ЛОТЫ</h1>
+        <h2 class="lots__title">лоты</h2>
         <ul class="lots__cards">
           <li class="card card-first background-cover">
             <div class="overlay"></div>
-            <a class="card__link">
+            <a class="card__link" href="#">
               <article class="card__text">
                 <h3 class="card__text_title underline">
                   Фильм режиссёра, который бросил киношколу
@@ -71,7 +69,7 @@
           </li>
           <li class="card card-second background-cover">
             <div class="overlay"></div>
-            <a class="card__link">
+            <a class="card__link" href="#">
               <article class="card__text">
                 <h3 class="card__text_title underline">
                   Книга, где описан один скучный день из жизни рекламного агента
@@ -87,7 +85,7 @@
           </li>
           <li class="card card-third background-cover">
             <div class="overlay"></div>
-            <a class="card__link">
+            <a class="card__link" href="#">
               <article class="card__text">
                 <h3 class="card__text_title underline">
                   Картина, которую повторит даже 5-летний сын маминой подруги
@@ -101,18 +99,18 @@
             </a>
           </li>
         </ul>
-        <a class="underline lots__more">посмотреть больше</a>
+        <a class="underline lots__more" href="#">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about__part-logo">
           <div class="about__logo">
-            <img class="logo-image" src="images/logo-white.svg" alt="White logo">
+            <a class="logo logo-white"></a>
           </div>
         </div>
         <div class="about__part-title">
           <h2 class="about__title">Об аукционе</h2>
         </div>
-        <div class="about__part-text">
+        <div class="about__part-description">
           <div class="about__description">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
@@ -131,21 +129,41 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="contacts">
-        <a class="underline">+9 999 555 5555</a>
-        <a class="underline">info@sobaka.ge</a>
+      <address class="footer__contacts contacts">
+        <a class="underline" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <span>наб. Принсенграхт 263-265, Амстердам</span>
       </address>
-      <nav class="nav columns">
-        <span>главная</span>
-        <a class="underline">посмотреть лоты</a>
-        <a class="underline">об аукционе</a>
+      <nav class="nav">
+        <ul class="nav__links columns">
+          <li class="nav__link">
+            <a class="link link-active" href="#">главная</a>
+          </li>
+          <li class="nav__link">
+            <a class="link" href="#">посмотреть лоты</a>
+          </li>
+          <li class="nav__link">
+            <a class="link" href="#">об аукционе</a>
+          </li>
+        </ul>
       </nav>
-      <div class="socials">
-        <img class="socials__icon" src="./images/yt.svg" alt="YT">
-        <img class="socials__icon" src="./images/vk.svg" alt="VK">
-        <img class="socials__icon" src="./images/pinterest.svg" alt="Pinterest">
-      </div>
+      <ul class="socials">
+        <li>
+          <a>
+            <img class="socials__icon" src="./images/yt.svg" alt="YT">
+          </a>
+        </li>
+        <li>
+          <a>
+            <img class="socials__icon" src="./images/vk.svg" alt="VK">
+          </a>
+        </li>
+        <li>
+          <a>
+            <img class="socials__icon" src="./images/pinterest.svg" alt="Pinterest">
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
