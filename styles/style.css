@@ -118,19 +118,7 @@
 
 .cover__description_subline {
     margin: auto 0;
-}
-
-.subline-first {
-    word-spacing: 0.9em;
-}
-
-.subline-between {
-    display: inline-block;
-    width: 0.56em;
-}
-
-.subline-second {
-    word-spacing: 0.84em;
+    word-spacing: 18.5px;
 }
 
 .cover__description_make-lot {
@@ -157,12 +145,11 @@
 
 .lots__cards {
     display: flex;
-    justify-content: space-evenly;
     padding: 27px 0;
     flex-wrap: wrap;
-    row-gap: 25px
+    gap: 25px;
+    margin: 0 24px;
 }
-/*Считаю, что просто gap тут не подойдет, т.к. за вертикальные отступы отвечает justify-content: space-evenly;*/
 
 .lots__more {
     margin-left: 64px;
@@ -177,17 +164,18 @@
     position: relative;
     list-style: none;
     display: flex;
+    flex-grow: 1;
 }
 
-.card-first {
+.card-film {
     background-image: url("../images/card-lot-01.jpg")
 }
 
-.card-second {
+.card-book {
     background-image: url("../images/card-lot-02.jpg")
 }
 
-.card-third {
+.card-painting {
     background-image: url("../images/card-lot-03.jpg")
 }
 
@@ -222,7 +210,6 @@
 .about {
     display: grid;
     grid-template-columns: repeat(3, 331px);
-    grid-template-rows: repeat(2, auto);
     justify-content: space-evenly;
     margin-top: 154px;
 }
@@ -287,6 +274,7 @@
 
 .footer {
     margin-top: 180px;
+    margin-bottom: 82px;
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
